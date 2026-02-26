@@ -1,6 +1,7 @@
 :root {
-  --accent:           #0055D4;
-  --accent-hover:     #0044B3;
+  --accent:           #00c29f;
+  --accent-hover:     #00968f;
+  --accent-text:      #00968f;
   --bg-primary:       #FFFFFF;
   --bg-secondary:     #F2F2F7;
   --bg-tertiary:      #E5E5EA;
@@ -172,7 +173,7 @@ main {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--accent-text);
 }
 
 h1 {
@@ -216,7 +217,7 @@ h1 {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--accent-text);
   margin-bottom: 16px;
 }
 
@@ -421,7 +422,7 @@ footer a:hover {
 }
 
 .prose a {
-  color: var(--accent);
+  color: var(--accent-text);
   text-decoration: none;
 }
 
